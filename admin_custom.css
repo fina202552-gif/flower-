@@ -1,0 +1,58 @@
+/* ---------------- Admin Background ---------------- */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header styling */
+#header, #branding, #user-tools {
+    background-color: #4CAF50 !important;
+    color: white !important;
+}
+
+/* ---------------- Flower Thumbnail ---------------- */
+.model-flower .photo-preview, .photo-box {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.model-flower .thumbnail, .photo-box img {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 60px;
+    transition: transform 0.3s;
+}
+
+.model-flower .thumbnail:hover {
+    transform: scale(1.2);
+}
+
+/* Edit/Delete buttons below thumbnail */
+.model-flower .photo-actions a.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2px 6px;
+    margin: 2px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* ---------------- Table Styling ---------------- */
+table#result_list th {
+    background-color: #e0f7fa;
+    color: #333;
+}
+
+table#result_list td {
+    padding: 8px;
+}
+
+/* Buttons */
+a.button, .deletelink, .addlink {
+    background-color: #4CAF50 !important;
+    color: white !important;
+    border-radius: 5px;
+    padding: 2px 6px !important;
+    text-decoration: none;
+}
